@@ -1,0 +1,15 @@
+.ligne1{
+    height: 50px;
+    width: 50px;
+    background-color: lightblue;
+}
+
+#container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.ligne1:hover {
+    border: 3px dotted #666;
+  }
