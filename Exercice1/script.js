@@ -4,17 +4,11 @@ let container = document.getElementById("container")
 const tableau =['A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
 for (const lettre of tableau) {
     let div = document.createElement("div");
-    div.setAttribute("draggable", "true")
+    div.setAttribute("draggable", true)
     let text = document.createTextNode(lettre)
     div.classList.add("ligne1");
     container.appendChild(div);
     div.appendChild(text);
-    div.style.border = "2px"
-    div.style.margin = "5px";
-    div.style.display = "flex";
-    div.style.justifyContent = "center"
-    div.style.alignItems = "center"
-    div.style.cursor ="move"
 }
 
 

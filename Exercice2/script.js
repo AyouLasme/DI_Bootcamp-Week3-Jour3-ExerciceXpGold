@@ -23,4 +23,3 @@ function handleStart(e) {
     // element.addEventListener("dragenter", handleDragEnter);
     
     element.addEventListener("dragend", handleEnd);
-    
